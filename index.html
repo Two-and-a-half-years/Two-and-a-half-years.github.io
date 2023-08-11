@@ -2,32 +2,401 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" id="viewport"
-        content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>义鼎天集团
-    </title>
-    <link rel="stylesheet" href="./css/idx.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="./static/libs/scrollReveal/scrollreveal.min.js"></script>
+  <!-- 引入font-awesome依赖 -->
+  <link href="https://cdn.bootcss.com/font-awesome/5.13.0/css/all.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./static/libs/glide/glide.core.min.css" />
+  <link rel="stylesheet" href="./static/libs/glide/glide.theme.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+
+  <title>义鼎天</title>
 </head>
 
 <body>
-    <div id="all">
-        <!-- 商标 -->
-        <div id="ydt"></div>
-        <!-- 头部宣传图 -->
-        <div id="xct"></div>
-        <!-- 导航栏 -->
-        <div id="dh">
-            <ul id="dhl">
-                <li>关于集团</li>
-                <li>要闻回顾</li>
-                <li>联系我们</li>
-            </ul>
-        </div>
-        <!-- 内容 -->
-        <div id="nr"></div>
+  <!-- 网页头部 -->
+  <header>
+    <div class="logo"><img src="./static/images/logo(1)(1).png"></div>
+    <nav>
+      <a href="#home">首页</a>
+      <a href="#about-us">关于集团</a>
+      <a href="#showcases">客户所需了解资料</a>
+      <a href="#service">服务流程</a>
+      <a href="#team-intro">团队介绍</a>
+      <a href="#company-activities">企业文化</a>
+    </nav>
+    <div class="burger">
+      <div class="burger-line1"></div>
+      <div class="burger-line2"></div>
+      <div class="burger-line3"></div>
     </div>
+  </header>
+  <div id="home" class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <div class="glide__slides">
+        <!-- 轮播图一 -->
+        <div class="glide__slide">
+          <div class="slide-caption left">
+            <div class="head-h head-txt">义鼎天环保集团有限公司</div>
+            <div class="head-text head-txt">义鼎天集团成立于2017年，紧密围绕国家“碳达峰、碳中和”战略、环保、新材料、双碳转型综合零碳全产业链、多领域集合一体化的现代化科研创新的集团公司，以社会经济全面发展绿色转型为主线，以数字能源融合创新发展为路径，全方位的协助客户提升绿色环保能力</div>
+            <div class="head-sm head-txt">使命：让天下没有污染的空气<br>义鼎天集团紧跟国家政策推动绿色发展促进人与自然和谐共生，牢记绿水青山就是金山银山的理念，发展绿色低碳综合业务产业链</div>
+          </div>
+          <div class="backdrop"></div>
+          <video src="./static/videos/working-man.mp4" muted autoplay loop></video>
+        </div>
+        <div class="glide__slide">
+          <div class="slide-caption left">
+            <h1 class="head-h head-txt">义鼎天环保集团有限公司</h1>
+            <h3 class="head-h head-txt">啦啦啦啦1</h3>
+            <button  class="explore-btn head-h head-txt">获取更多</button>
+          </div>
+          <div class="backdrop"></div>
+          <img src="./static/images/发展轨迹.webp" />
+          
+        </div>
+      </div>
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+          <i class="fa fa-angle-left"></i>
+        </button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+          <i class="fa fa-angle-right"></i>
+        </button>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content-wrapper">
+    <!-- 关于我们 -->
+    <section id="about-us" class="about-us">
+      <h2 class="title1">关于集团</h2>
+      <div class="intro">
+        <p>
+          义鼎天集团开发碳资产行业分类
+        </p>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <i class="fas fa-lightbulb"></i>
+          <h4 class="feature-title">减排企业</h4>
+          <p class="feature-content">
+            绿色发电开发碳指标，绿证；林业碳汇开发碳指标。
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-chart-line"></i>
+          <h4 class="feature-title">控排企业</h4>
+          <p class="feature-content">
+            碳足迹核查认证，碳盘查，火电行业可买卖配额，做碳金融。
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-shopping-cart"></i>
+          <h4 class="feature-title">出口企业</h4>
+          <p class="feature-content">
+            出口企业可做碳足迹核算报告。
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-tachometer-alt"></i>
+          <h4 class="feature-title">国能售电</h4>
+          <p class="feature-content">
+            网站推广是指将网站推广到国内各大知名网站和搜索引擎
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="showcases" class="showcases section-bg">
+      <h2 class="title1">客户所需了解资料</h2>
+      <p class="intro">
+        以下所有政策文件，均可在政府官网查询
+      </p>
+      <div class="cases">
+        <div class="information-first information case-item">
+          <div class=" come ">
+            <img class=" f-img" src="./static/images/gov.png" alt="">
+            <div class="f-text"><b>二十大会议2022年10月16日习近平提出</b><br>
+              <b>政策第十条关于碳达峰碳中和（文件）</b><br>
+              <a class="f-a"
+                href="https://www.gov.cn/xinwen/2022-10/25/content_5721685.htm">https://www.gov.cn/xinwen/2022-10/25/content_5721685.htm</a>
+            </div>
+          </div>
+          <img class="qr-img" src="./static/images/first.png" alt="">
+        </div>
+        <div class="information-second information case-item">
+          <div class="come">
+            <img class="f-img" src="./static/images/能源局.png" alt="">
+            <div class="f-text"><b>副局长仁京东2022年10月17日发表讲话<br>
+                《能源碳达峰碳中和标准化提升行动计划》<br></b>
+              <a class="f-a"
+                href="http://www.nea.gov.cn/2022-10/09/c_1310668927.htm">http://www.nea.gov.cn/2022-10/09/c_1310668927.htm</a>
+            </div>
+          </div>
+          <img class="qr-img" src="./static/images/third.png" alt="">
+        </div>
+        <div class="information-third information case-item">
+          <div class="come">
+            <img class="f-img" src="./static/images/gov.png" alt="">
+            <div class="f-text"><b>碳排放权交易管理法（试行）部令<br> 第19号自2021年2月1日起施行<br></b>
+              <a class="f-a"
+                href="https://www.gov.cn/zhengceku/2021-06/25/content_5577360.htm">https://www.gov.cn/zhengceku/2021-06/25/content_5577360.htm</a>
+            </div>
+          </div>
+          <img class="qr-img" src="./static/images/second.png" alt="">
+        </div>
+        <div class="information-fourth information case-item">
+          <div class="come">
+            <img class="f-img" src="./static/images/发改委.png" alt="">
+            <div class="f-text"><b>CM-073-V01<br>供热锅炉使用生物质废弃物替代化石燃料<br></b></div>
+          </div>
+          <img class="qr-img" src="./static/images/fouth.png" alt="">
+        </div>
+        <div class="information-fifth information case-item">
+          <div class="come">
+            <img class="f-img" src="./static/images/环境部.png" alt="">
+            <div class="f-text"><b>中国应对气候变化的政策与行动2022年度报告</b><br><a class="f-a"
+                  href="https://www.mee.gov.cn/ywdt/xwfb/202210/t20221027_998171.shtml">https://www.mee.gov.cn/ywdt/xwfb/202210/t20221027_998171.shtml</a>
+                <br>
+            </div>
+            <img src="./" alt="">
+          </div>
+        </div>
+        <div class="information-sixth information case-item">
+          <div class="come">
+            <img class="f-img" src="./static/images/生物质.png" alt="">
+            <div class="f-text"><b>《30 60 零碳生物质能发展潜力蓝皮书》（文件）<br></b>
+              <a class="f-a"
+                href="https://www.beipa.org.cn/productinfo/945230.html?templated=602287">https://www.gov.cn/zhengceku/2021-06/25/content_5577360.htm</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="service" class="service">
+      <h2 class="title1">服务流程</h2>
+      <p class="intro">
+        网络综合公司，提供包括网络基础服务（比如域名，主机，邮箱）和网络增值服务（如网站建设和推广，网站优化）等业务
+      </p>
+      <div class="services">
+        <div class="service-item">
+          <i class="fas fa-comments"></i>
+          <h4 class="service-title">洽谈沟通</h4>
+          <p class="service-content">
+            企业集团之间友好沟通
+          </p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-sign-in-alt"></i>
+          <h4 class="service-title">签订合同</h4>
+          <p class="service-content">
+           双方签订合作合同
+          </p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-file-signature    "></i>
+          <h4 class="service-title">提交资料</h4>
+          <p class="service-content">
+           委托方提供相应资料
+          </p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-user"></i>
+          <h4 class="service-title">开发核查</h4>
+          <p class="service-content">
+            所有费用由义鼎天集团承担
+          </p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-chalkboard-teacher"></i>
+          <h4 class="service-title">市场交易</h4>
+          <p class="service-content">
+            开发核查后进入市场交易
+          </p>
+        </div>
+        <div class="service-item">
+          <i class="fas fa-user-check"></i>
+          <h4 class="service-title">利润分成</h4>
+          <p class="service-content">
+            根据合同条款进行利润分成，可提供发票
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="team-intro" class="team-intro section-bg">
+      <h2 class="title1">团队介绍</h2>
+      <div class="team-members">
+        <div class="team-member">
+          <div class="profile-image">
+            <img src="./static/images/guoleyi.webp" alt="">
+          </div>
+          <h4 class="name">郭乐义</h4>
+          <p class="position">董事长</p>
+          <ul class="social-links">
+            <li><a href="http://www.baidu.com"><i class="fab fa-weixin"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-weibo"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-github"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="team-member">
+          <div class="profile-image">
+            <img src="./static/images/lijialong.webp" alt="">
+          </div>
+          <h4 class="name">李佳龙</h4>
+          <p class="position">中山大学经济学学士</p>
+          <ul class="social-links">
+            <li><a href="http://www.baidu"><i class="fab fa-weixin"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-weibo"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-github"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="team-member">
+          <div class="profile-image">
+            <img src="./static/images/anxin.webp" alt="">
+          </div>
+          <h4 class="name">安馨</h4>
+          <p class="position">青岛上合之珠总经理</p>
+          <ul class="social-links">
+            <li><a href="http://www.baidu"><i class="fab fa-weixin"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-weibo"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-github"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="team-member">
+          <div class="profile-image">
+            <img src="./static/images/zhoucuhanxi.webp" alt="">
+          </div>
+          <h4 class="name">周传喜</h4>
+          <p class="position">从事多年销售团队的管理工作</p>
+          <ul class="social-links">
+            <li><a href="http://www.baidu"><i class="fab fa-weixin"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-weibo"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-github"></i></a></li>
+            <li><a href="http://www.baidu"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="company-activities" class="company-activities">
+      <h2 class="title1">公司动态</h2>
+      <p class="intro">关注公司动态，获取一手信息</p>
+      <div class="activities">
+        <div class="activity">
+          <div class="act-image-wrapper">
+            <img src="./static/images/activity01-image.jpg" alt="">
+          </div>
+          <div class="meta">
+            <p class="data-published">
+              <i class="far fa-calendar"></i>
+              2020年4月22日
+            </p>
+            <p class="comments">
+              <i class="far fa-comments"></i>
+              33
+              <span>条评论</span>
+            </p>
+          </div>
+          <h2 class="act-title">提供互联网接入的ISP公司</h2>
+          <article>
+            ISP证，全称为互联网接入服务业务(ISP)，是第二类增值电信业务。根据国务院相关规定，从事增值电信业务，就需要办理相应的增值电信业务许可证，增值电信业务经营许可证是按照国务院《中华人民共和国电信条例》，由工信部、各省市通信管理局对从事增值电信业务的企业颁发的从业证明，否则就是无证经营。被查需要负法律责任。
+          </article>
+          <button class="read-more-btn">阅读更多</button>
+        </div>
+        <div class="activity">
+          <div class="act-image-wrapper">
+            <img src="./static/images/red-suspension-bridge-3493772.jpg" alt="">
+          </div>
+          <div class="meta">
+            <p class="data-published">
+              <i class="far fa-calendar"></i>
+              2020年4月22日
+            </p>
+            <p class="comments">
+              <i class="far fa-comments"></i>
+              33
+              <span>条评论</span>
+            </p>
+          </div>
+          <h2 class="act-title">提供互联网接入的ISP公司</h2>
+          <article>
+            ISP证，全称为互联网接入服务业务(ISP)，是第二类增值电信业务。根据国务院相关规定，从事增值电信业务，就需要办理相应的增值电信业务许可证，增值电信业务经营许可证是按照国务院《中华人民共和国电信条例》，由工信部、各省市通信管理局对从事增值电信业务的企业颁发的从业证明，否则就是无证经营。被查需要负法律责任。
+          </article>
+          <button class="read-more-btn">阅读更多</button>
+        </div>
+        <div class="activity">
+          <div class="act-image-wrapper">
+            <img src="./static/images/watercrafts-on-river-3464632.jpg" alt="">
+          </div>
+          <div class="meta">
+            <p class="data-published">
+              <i class="far fa-calendar"></i>
+              2020年4月22日
+            </p>
+            <p class="comments">
+              <i class="far fa-comments"></i>
+              33
+              <span>条评论</span>
+            </p>
+          </div>
+          <h2 class="act-title">提供互联网接入的ISP公司</h2>
+          <article>
+            ISP证，全称为互联网接入服务业务(ISP)，是第二类增值电信业务。根据国务院相关规定，从事增值电信业务，就需要办理相应的增值电信业务许可证，增值电信业务经营许可证是按照国务院《中华人民共和国电信条例》，由工信部、各省市通信管理局对从事增值电信业务的企业颁发的从业证明，否则就是无证经营。被查需要负法律责任。
+          </article>
+          <button class="read-more-btn">阅读更多</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="footer-menus">
+      <div class="contact-us">
+        <p class="menu-title">联系我们</p>
+        <p>地址：</p>
+        <p>电话</p>
+        <p>传真</p>
+        <p>电子邮件：admin@abc.com</p>
+      </div>
+      <div class="service-menu footer-menu">
+        <p class="menu-title">合作单位</p>
+        <ul class="menu-items">
+          <li><a href="https://www.cbgex.com.cn/">北京绿色交易所</a></li>
+          <li><a href="https://www.hbets.cn/">湖北碳排放权交易中心</a></li>
+          <li><a href="https://www.cneeex.com/">上海环境能源交易所</a></li>
+          <li><a href="https://new.szets.com/index.html">深圳排放权交易所</a></li>
+          <li><a href="https://www.cnemission.com/article/">广州碳排放权交易所</a></li>
+          <li><a href="https://ttc.chinatcx.com.cn/">天津排放权交易所</a></li>
+          <li><a href="https://tpf.cqggzy.com/">重庆碳排放权交易所</a></li>
+        </ul>
+      </div>
+      <!-- <div class="service-menu footer-menu">
+        <p class="menu-title">子公司分布</p>
+        <ul class="menu-items">
+          <li><a href="#">桌面网站</a></li>
+          <li><a href="#">移动网站</a></li>
+          <li><a href="#">科研网站</a></li>
+          <li><a href="#">软件应用</a></li>
+        </ul>
+      </div> -->
+      <p class="icp-info">湘ICP备19026630号-1</p>
+      <p class="rights">&copy; 2020 云留月科技有限公司</p>
+      <div class="scroll-to-top">
+        <a href="#"><i class="fas fa-chevron-up"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- 引入JS文件 -->
+  <script src="./static/libs/anime/anime.min.js"></script>
+  <script src="./static/libs/glide/glide.min.js"></script>
+  <script src="./static/libs/isotope/isotope.pkgd.min.js"></script>
+  <script src="./static/libs/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+  <script src="./index.js"></script>
 </body>
 
 </html>
